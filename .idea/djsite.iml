@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Django-Online-Shop-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DjangoCatShop-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Online-Shop-Django-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OnlineShop_Django-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Online_shop-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Wexford-Django-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/django_online_shop-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/django_project_online_dhopping-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/onlineShop-django-app-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/onlineshop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/onlineshop_python_django-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shopping-master" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.10 (djsite)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
