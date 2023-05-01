@@ -1,0 +1,15 @@
+{% extends "mainshop/layout.html" %}
+
+{% block title %}
+{{cats.name}}
+{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{cats.name}}</h1>
+        <p>{{cats.description}}</p>
+        <p>{{cats.breed}}</p>
+        <a href="{% url 'cats-delete' cats.id %}" class = "btn btn-danger">Удалить</a>
+        <a href="{% url 'cats-update' cats.id %}" class = "btn btn-info">Редактировать</a>
+    </div>
+{% endblock %}

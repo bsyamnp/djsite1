@@ -1,0 +1,27 @@
+{% extends "mainshop/layout.html" %}
+
+{% block title %}
+Добавление котика
+{% endblock %}
+
+{% block content %}
+    <div class = "features">
+        <h1>Добавление котика </h1 >
+        <form method = "post">
+            {% csrf_token %}
+            {{form.name}}<br>
+            {{form.description}}<br>
+            {{form.breed}}<br>
+            {{form.age}}<br>
+            <span>{{error}}</span>
+<!--            <input type = "text" placeholder = "Имя кота" class="form-control"><br>-->
+<!--            <input type = "text" placeholder = "Описание" class="form-control"><br>-->
+<!--            <input type = "text" placeholder = "Возраст" class="form-control"><br>-->
+<!--            <textarea class = "form-control" placeholder="Описание кота"></textarea>-->
+<!--            <input type="date"  class="form-control" >-->
+<!--            <input type="time"  class="form-control" >-->
+            <button class = "btn btn-success" type = "submit">Добавить запись</button>
+        </form>
+    </div>
+
+{% endblock %}

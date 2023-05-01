@@ -1,0 +1,22 @@
+{% extends "mainshop/layout.html" %}
+
+{% block title %}
+Homepage
+{% endblock %}
+
+{% block content %}
+    <h1> Наши коты! </h1 >
+    {% if cats %}
+        {% for i in cats%}
+            <div class = "alert alert-warning">
+                <h3>{{i.name}}</h3>
+                <p>{{i.description}}</p>
+                <a href="{% url 'cats-detail' i.id %}" class="btn btn-warning">Читать детальнее</a>
+            </div>
+        {%endfor%}
+    {%else%}
+        <p> у вас нет записей! </p>
+    {% endif %}
+    <p> Ждем новых поступлений... </p>
+        <a href="{% url 'create' %}"><li><button class = " btn btn-info"><i class = "fas fa-plus circle"></i>Добавить котика</button></li></a>
+{% endblock %}

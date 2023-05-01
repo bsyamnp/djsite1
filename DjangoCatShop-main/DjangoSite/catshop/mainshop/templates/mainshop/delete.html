@@ -1,0 +1,16 @@
+{% extends "mainshop/layout.html" %}
+
+{% block title %}
+Удаление котика
+{% endblock %}
+
+{% block content %}
+    <div class = "features">
+        <h1>Удаление котика</h1 >
+        <form method = "post">
+            {% csrf_token %}
+            <button class = "btn btn-success" type = "submit">Удалить запись</button>
+        </form>
+    </div>
+
+{% endblock %}
